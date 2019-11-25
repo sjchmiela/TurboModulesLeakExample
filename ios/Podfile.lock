@@ -217,6 +217,15 @@ PODS:
     - React-cxxreact (= 0.61.5)
     - React-jsi (= 0.61.5)
     - ReactCommon/jscallinvoker (= 0.61.5)
+  - ReactCommon/turbomodule/samples (0.61.5):
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React-Core (= 0.61.5)
+    - React-cxxreact (= 0.61.5)
+    - React-jsi (= 0.61.5)
+    - ReactCommon/jscallinvoker (= 0.61.5)
+    - ReactCommon/turbomodule/core (= 0.61.5)
   - Yoga (1.14.0)
 
 DEPENDENCIES:
@@ -247,6 +256,7 @@ DEPENDENCIES:
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - ReactCommon/jscallinvoker (from `../node_modules/react-native/ReactCommon`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - ReactCommon/turbomodule/samples (from `../node_modules/react-native/ReactCommon`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -333,6 +343,6 @@ SPEC CHECKSUMS:
   ReactCommon: 198c7c8d3591f975e5431bec1b0b3b581aa1c5dd
   Yoga: f2a7cd4280bfe2cca5a7aed98ba0eb3d1310f18b
 
-PODFILE CHECKSUM: c2808692766e7d74bca51fc2c5cefa3f0d9b5cf9
+PODFILE CHECKSUM: f7f97761f470ecdbb2d53d966d2e3b00e90d63a8
 
 COCOAPODS: 1.8.1
